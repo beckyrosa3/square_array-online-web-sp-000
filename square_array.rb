@@ -3,13 +3,13 @@ def square_array(array)
   array.each do |number**2|
   puts array
 end
+end
+#numbers = [1,2,3]
 
-numbers = [1,2,3]
-
-square_array(numbers)
+#square_array(numbers)
 # => [1,4,9])
 
-new_numbers = [9,10,16,25]
+#new_numbers = [9,10,16,25]
 
-square_array(new_numbers)
+#square_array(new_numbers)
 # => [81,100,256,625]
